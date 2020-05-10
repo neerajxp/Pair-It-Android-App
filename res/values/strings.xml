@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="hello">Hello World, TwinTestActivity!</string>
+   <string name="app_name">Pair It</string>
+   <string  name="info">Contact :</string>
+   <string  name="email">neerajxp@gmail.com</string>
+   <string-array name="vegetables">
+        <item>brinjal</item>        
+        <item>broccoli</item>
+        <item>capsicum_green</item>
+        <item>capsicum_red</item>
+        <item>carrot</item>
+        <item>cauliflower</item>                      
+        <item>cucumber</item>
+        <item>garlic</item>
+        <item>lady_finger</item>
+        <item>spinach</item>
+        <item>peas</item>
+        <item>potato</item>
+        <item>pumpkin</item>
+        <item>radish_red</item>
+        <item>radish_white</item>
+        <item>tomato</item>        
+    </string-array>         
+    <string-array name="animals">
+        <item>camel</item>        
+        <item>cat</item>
+        <item>cheetah</item>
+        <item>cow</item>
+        <item>deer</item>
+        <item>dog</item>                      
+        <item>elephant</item>
+        <item>fish</item>
+        <item>frog</item>
+        <item>giraffe</item>
+        <item>kangaroo</item>
+        <item>lion</item>
+        <item>parrot</item>
+        <item>sheep</item>
+        <item>zebra</item>             
+    </string-array>  
+     <string  name="help1">- Enable sound will give a sound when two things are paired. The voulme can be controlled using mobile volume controls.</string>    
+     <string  name="help6">- Enable timer mode if you want to play game in time challenge mode</string>
+     <string  name="help2">- Select Easy, Medium or Difficult mode</string>
+     <string  name="help3">- Select game category like Alphabets, numbers, animals or vegetables</string>
+     <string  name="help4">- Start by clicking on left top box and keep on clicking next boxes in right direction and keep remembering their positions</string>
+     <string  name="help5">- Pair things and complete in least moves</string>
+     <string  name="helpfinish">- Check your ratings with stars. Complete in targeted moves to get higher ratings and stars.</string>
+     <string  name="disclaimer">     Contents in this app are considered to be of public domain and I tried my best to give credits back to those owners/organisations. All materials including but not limited to contents, images are sole property of their respective owners. </string>
+     <string  name="disclaimer2">     If you believe such a content should not be featured, contact me at neerajxp@gmail.com </string>
+</resources>

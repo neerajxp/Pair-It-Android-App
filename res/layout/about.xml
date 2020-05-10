@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twintest"
+    android:orientation="vertical"    
+      android:gravity="center" 
+    >
+
+    <ScrollView
+      android:id="@+id/scrollView1"
+      android:layout_width="match_parent"        
+      android:layout_height="0dp"    
+  	android:layout_weight="0.5"  
+      >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center" 
+        >
+
+            <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textColor="@color/blue"        
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cygnetlogo"
+        android:gravity="left"
+         />
+ <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_gravity="center"
+        android:onClick="aboutme"
+        android:src="@drawable/horizontallineorange" />
+  <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_gravity="center"
+        android:onClick="aboutme"
+        android:src="@drawable/horizontallineblue" />
+  
+    	<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="30dp"      
+        android:src="@drawable/pairitlogo" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:orientation="horizontal"
+    android:layout_marginTop="25dp" 
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="First Release:"
+        android:textColor="@color/blue" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="10-June-2013"
+        android:textColor="@color/red" />
+    </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:orientation="horizontal"    
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="Version:"
+        android:textColor="@color/blue" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="1.1"
+        android:textColor="@color/red" />
+    </LinearLayout>
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:orientation="horizontal"    
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="@string/info"
+        android:textColor="@color/blue" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="@string/email"
+        android:textColor="@color/red" />
+    </LinearLayout>    
+    </LinearLayout>    
+  </ScrollView>
+          
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"   
+    android:orientation="horizontal"    
+    android:layout_weight="0.2"
+    >
+ 	 <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="Back"
+         android:textColor="@color/blue"	
+	    android:textStyle="bold"
+        android:onClick="mainreturn"
+         />
+ </LinearLayout>
+</LinearLayout>

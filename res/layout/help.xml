@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twintest"
+    android:orientation="vertical"    
+      android:gravity="center" 
+    >
+
+    <ScrollView
+      android:id="@+id/scrollView1"
+      android:layout_width="match_parent"        
+      android:layout_height="0dp"    
+  	android:layout_weight="0.9"  
+      >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center" 
+        >
+        
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/help1"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left"
+        android:textSize="13dp"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"    
+         />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/help6"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left" 
+        android:textSize="13dp"       
+        android:layout_marginLeft="5dp"
+         />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/help2"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left" 
+        android:textSize="13dp"       
+        android:layout_marginLeft="5dp"
+         />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/help3"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left"
+        android:textSize="13dp"        
+        android:layout_marginLeft="5dp"
+         />
+ 
+    	<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"          
+        android:src="@drawable/howtoplay2" />
+    	
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/help4"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left" 
+        android:textSize="13dp"       
+        android:layout_marginLeft="5dp"/>
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/help5"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left" 
+        android:textSize="13dp"       
+        android:layout_marginLeft="5dp"        
+         />
+    	<ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"      
+  		android:src="@drawable/howtoplay1" />
+
+       	
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="@string/helpfinish"
+        android:textColor="@color/navidarkblue"
+        android:gravity="left" 
+        android:textSize="13dp"       
+        android:layout_marginLeft="5dp"
+         />
+    	<ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"      
+  		android:src="@drawable/howtoplay3" />
+       
+    </LinearLayout>    
+  </ScrollView>
+          
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"   
+    android:orientation="horizontal"    
+    android:layout_weight="0.1"
+    >
+ 	 <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"                
+        android:text="Back"
+         android:textColor="@color/navidarkblue"	
+	    android:textStyle="bold"
+        android:onClick="mainreturn"
+         />
+ </LinearLayout>
+</LinearLayout>

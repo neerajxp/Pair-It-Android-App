@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/twintest"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"  >
+    
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.15"    
+    android:orientation="horizontal"   
+     android:layout_gravity="center_horizontal"   
+           > 
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.6"    
+	    android:orientation="horizontal"   
+	     android:layout_gravity="center_horizontal"   
+	           > 	           	
+		    <TextView
+		        android:id="@+id/text1"
+		        android:layout_width="wrap_content"        
+		        android:layout_height="wrap_content"        
+		        android:textColor="@color/blue"        
+		        android:layout_marginTop="10dp"
+		        android:background="@drawable/pairitlogo"
+		        android:gravity="center"
+		        android:layout_marginLeft="20dp"	   
+		         />
+	     </LinearLayout>
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.4"    
+	    android:orientation="horizontal"   	    
+	     android:layout_gravity="center_horizontal"   
+	           > 	 
+			    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="0.15"    
+			    android:orientation="vertical"   			    
+			     android:layout_gravity="center_horizontal"   			     
+			           > 	
+			    <TextView
+			        android:id="@+id/text11"
+			        android:layout_width="wrap_content"			        
+			        android:layout_height="wrap_content"
+			        android:text="Sound "			        
+			        android:textColor="@color/red"			             
+					android:textSize="15dp"    		
+					android:layout_gravity="center"			      	  
+			         />
+			    
+			     <Button
+			        android:id="@+id/btnsound"                              
+			     	android:layout_width="wrap_content"          
+			        android:layout_height="wrap_content"                                  
+			        android:background="@drawable/soundon"
+			        android:onClick="setSound"   
+			        android:layout_gravity="center"  			  					  		                       
+			         />    
+              </LinearLayout>
+               <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="0.15"    
+			    android:orientation="vertical"   
+			     android:layout_gravity="center_horizontal" 
+			      
+			           > 	
+			    <TextView
+			        android:id="@+id/text11"
+			        android:layout_width="wrap_content"			        
+			        android:layout_height="wrap_content"
+			        android:text="Timer "			        
+			        android:textColor="@color/red"			             
+					android:textSize="15dp"    		
+					android:layout_gravity="center"			      	  
+			         />
+			    
+			     <Button
+			        android:id="@+id/btntimer"                              
+			     	android:layout_width="wrap_content"          
+			        android:layout_height="wrap_content"                                  
+			        android:background="@drawable/timeroff"
+			        android:onClick="setTimer"   
+			        android:layout_gravity="center"  			  					  		                       
+			         />    
+              </LinearLayout>
+                </LinearLayout>
+    </LinearLayout>
+       
+    
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+        android:layout_height="0dp"
+    android:layout_weight="0.08"        
+    android:orientation="horizontal" 
+    android:layout_marginTop="5dp" 
+     android:gravity="center"
+           > 		
+             <TextView
+        android:id="@+id/text14"
+        android:layout_width="0dp"
+        android:layout_weight="0.17"
+        android:layout_height="wrap_content"    	          	 
+         />
+            <Button
+        android:id="@+id/btneasy"                               
+       android:layout_width="0dp"               
+       android:layout_weight="0.22"
+        android:layout_height="match_parent"                                             
+        android:background="@drawable/easyselect"
+        android:onClick="setlevel"   
+        android:layout_gravity="center"                             
+         />
+             <Button
+        android:id="@+id/btnmedium"             
+        android:layout_width="0dp"               
+       android:layout_weight="0.22"          
+        android:layout_height="match_parent"                                  
+        android:background="@drawable/mediumselect"
+        android:onClick="setlevel"
+        android:layout_gravity="center"   
+        android:layout_marginLeft="13dp"     
+         />
+            
+              <Button
+        android:id="@+id/btndifficult"             
+        android:layout_width="0dp"               
+       android:layout_weight="0.22"           
+        android:layout_height="match_parent"                                  
+        android:background="@drawable/difficultselect"
+        android:onClick="setlevel"
+        android:layout_gravity="center"    
+		android:layout_marginLeft="13dp"   
+         />
+            
+         <TextView
+        android:id="@+id/text14"
+        android:layout_width="0dp"
+        android:layout_weight="0.17"
+        android:layout_height="wrap_content"    	          	 
+         />
+  </LinearLayout>
+ <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_gravity="center"        
+        android:src="@drawable/horizontallineorange" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="0dp"    
+   android:layout_weight="0.7"
+   android:layout_marginTop="10dp"
+   android:orientation="vertical"
+   android:layout_gravity="center"
+    >
+ 	
+	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.3"    
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"    
+     >
+ 	
+	       <TextView
+        android:id="@+id/btnvegetables11"             
+        android:layout_width="0dp"        
+       android:layout_weight="0.05"   
+       android:layout_height="match_parent"                                               
+         />
+	       
+	     <Button
+        android:id="@+id/btnvegetables"             
+        android:layout_width="0dp"        
+       android:layout_weight="0.45"
+        android:layout_height="match_parent"
+        android:textSize="15dp"                               
+        android:textColor="@color/red"             
+        android:background="@drawable/vegetablesbutton"
+        android:onClick="startVegetables"        
+         />
+	     <Button
+        android:id="@+id/btnanimals"
+         android:layout_width="0dp"        
+        android:layout_weight="0.45"
+        android:layout_height="match_parent"
+        android:textSize="15dp"                           
+        android:layout_marginLeft="20dp"        
+        android:textColor="@color/red"        
+        android:background="@drawable/animalsbutton"
+        android:onClick="startAnimals" 
+        />
+  <TextView
+        android:id="@+id/btnvegetables12"             
+        android:layout_width="0dp"        
+       android:layout_weight="0.05"      
+       android:layout_height="match_parent"                                            
+         />	       
+ </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.3"  
+    android:layout_marginTop="15dp"  
+    android:orientation="horizontal"
+          >
+     <TextView
+        android:id="@+id/btnvegetables21"             
+        android:layout_width="0dp"        
+       android:layout_weight="0.05"    
+       android:layout_height="match_parent"                                              
+         />
+     
+ 	<Button
+        android:id="@+id/btnnumbers"
+         android:layout_width="0dp"        
+        android:layout_weight="0.45"
+        android:layout_height="match_parent"
+        android:textSize="15dp"                                            
+        android:background="@drawable/numbersbutton"
+        android:onClick="startNumbers" 
+        />
+<Button
+        android:id="@+id/btnalphabets"
+        android:layout_width="0dp"        
+        android:layout_weight="0.45"
+        android:layout_height="match_parent"
+        android:textSize="15dp"                           
+        android:layout_marginLeft="20dp"               
+        android:textColor="@color/red"
+        android:background="@drawable/alphabetsbutton"
+        android:onClick="startAlphabets" 
+        />
+ <TextView
+        android:id="@+id/btnvegetables22"             
+        android:layout_width="0dp"        
+       android:layout_weight="0.05"    
+       android:layout_height="match_parent"                                              
+         />
+ </LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.10"    
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+          >
+	</LinearLayout>
+	
+ </LinearLayout>
+  <Button
+        android:id="@+id/btnhelps"  
+        android:layout_marginTop="2dp"           
+        android:layout_width="wrap_content"               
+        android:layout_height="wrap_content"                    
+        android:background="@drawable/rateit"
+        android:onClick="startRateit"     
+        android:layout_gravity="left"   
+         />
+  
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+        android:layout_height="0dp"
+    android:layout_weight="0.05"        
+    android:orientation="horizontal" 
+    android:layout_marginTop="10dp" 
+           >
+  </LinearLayout>
+</LinearLayout>
